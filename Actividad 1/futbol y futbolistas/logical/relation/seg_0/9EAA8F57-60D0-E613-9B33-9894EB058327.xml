@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="9EAA8F57-60D0-E613-9B33-9894EB058327">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:41:58 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<sourcePk>60751773-D76B-3689-0D93-F776E2348A48</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>ubicado</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B1A56E99-308D-4D13-463C-70015C96FDFC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B684220-2A37-629C-6BB2-8C2D8BF03230</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F368CC0-2882-B337-8D0B-867FF9C21D21" name="entrenador">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:23:45 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_entrenador" id="A9C14D09-C11C-7185-E5DA-3D0AC82EF66D">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:23:51 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="E85D550B-AA4E-3F8D-D433-F6F81F77E5DF">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:23:55 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>DOM2025000</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="41EA0D5F-A1D9-2DDD-CA10-FC3BE6DCB1B6">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:24:00 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>DOM2025000</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FACF1947-C63B-A537-8BD6-97CCA8014E2A" name="entrenador PK">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:24:18 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9C14D09-C11C-7185-E5DA-3D0AC82EF66D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

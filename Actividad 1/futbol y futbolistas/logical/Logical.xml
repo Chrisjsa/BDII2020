@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="789B6D0A-905D-390A-8D4E-BD44C2C97E1D" mainViewID="B7896BF5-E70B-F195-88A0-865332252C7B">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 13:22:24 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

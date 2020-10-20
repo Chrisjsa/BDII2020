@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4BE4C120-73B3-656E-9787-F42DE0EA9F09">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 13:22:25 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

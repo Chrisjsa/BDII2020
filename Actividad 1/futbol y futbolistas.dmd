@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="futbol y futbolistas" id="5B5FB6A0-1019-D70D-51E3-402D4363A965" version="3.5">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 13:22:24 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5B5FB6A0-1019-D70D-51E3-402D4363A965</designId>
+</OSDM_Design>

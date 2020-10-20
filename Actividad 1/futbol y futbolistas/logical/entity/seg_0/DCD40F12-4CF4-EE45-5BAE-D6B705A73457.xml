@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCD40F12-4CF4-EE45-5BAE-D6B705A73457" name="partido_jugadores">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:48:31 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_partido" id="9D7EB619-D107-187E-148D-68FF25C27DC8">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:49:11 UTC</createdTime>
+<generatorID>2C48AEEA-52EC-B8B0-D61A-56F946DC246B</generatorID>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<referedAttribute>F190F875-AC5E-E2BD-A6E3-D7EC69900EB5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jugador" id="68890CB2-77DD-AAD9-7983-6B768206FB0F">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:49:21 UTC</createdTime>
+<generatorID>3DC9A2AD-66A4-4163-1887-37E70AF9027C</generatorID>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<referedAttribute>5800D0E4-4783-1FAD-1510-0FA9C683BB43</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minuto_inicio" id="E0DA93FF-E88A-6B57-9442-E934A2F3AC16">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:49:39 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>DOM2025100</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minuto_fin" id="5B94D2C3-35B2-288C-8B2E-7353FA1AEE9F">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:49:53 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>DOM2025100</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="posicion" id="88195EFD-341C-0055-4BD0-13FFE4F102CC">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:50:09 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>DOM2025000</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC9CF651-EA00-04CC-68FB-3900A04FB2A4" name="partido_jugadores PK">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:49:11 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D7EB619-D107-187E-148D-68FF25C27DC8</attributeRef>
+<attributeRef>68890CB2-77DD-AAD9-7983-6B768206FB0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

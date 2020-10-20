@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84A89319-19B8-7AE3-C91B-5D3C838C816F" name="partido">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:42:49 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_partido" id="F190F875-AC5E-E2BD-A6E3-D7EC69900EB5">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:42:53 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_realizacion" id="9EA081D5-92C4-6242-8822-133B5574814E">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:42:57 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>DOM3000001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_club" id="7264D65A-FBC2-BF1D-7447-E6040B515AA6">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:43:26 UTC</createdTime>
+<generatorID>79CE5AF6-37FC-BC37-8ECD-DF74299512F6</generatorID>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<referedAttribute>3F7FB3BC-3127-ABEF-4A38-EDB75B7B0A4E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_club1" id="CD73CCE6-9F63-6909-4288-DDBB5A252F55">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:43:35 UTC</createdTime>
+<generatorID>4F739476-3261-D69E-E233-8E03FC47A6D8</generatorID>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<referedAttribute>3F7FB3BC-3127-ABEF-4A38-EDB75B7B0A4E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>DOM10006</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F1B2E35-4059-DFD3-B017-C410DC60B3D4" name="partido PK">
+<createdBy>ubii</createdBy>
+<createdTime>2020-10-20 14:43:12 UTC</createdTime>
+<ownerDesignName>futbol y futbolistas</ownerDesignName>
+<engineerTo>
+<item key="7036AAB6-9ACF-ED2F-91C4-A630060666C0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F190F875-AC5E-E2BD-A6E3-D7EC69900EB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
